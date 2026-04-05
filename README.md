@@ -71,7 +71,7 @@ ERC-20 token for incentivizing renewable energy generation and P2P trading
 **Tech:** Solidity 0.8.24, OpenZeppelin ERC-20, Arbitrum
 
 **Live Contract:** [View on Arbiscan](https://arbiscan.io/address/0x6a666d89cdc3144f2754dc5feb88b5d43a29c547aca8b9c8452dd9f0f524126b)
-
+                   [View tx on Arbiscan] https://arbiscan.io/tx/0x6a666d89cdc3144f2754dc5feb88b5d43a29c547aca8b9c8452dd9f0f524126b
 ---
 
 ### 🗳️ [Decentralized Voting System](https://github.com/cjmontcablockchain/decentralized-voting-system)
