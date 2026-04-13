@@ -21,7 +21,7 @@ I'm a Senior .NET Developer with 12+ years of experience, currently exploring th
 ## 🛠️ Tech Stack
 
 ### Blockchain Development
-![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue?style=flat&logo=solidity)
+![Solidity](https://img.shields.io/badge/Solidity-0.8.28-blue?style=flat&logo=solidity)
 ![Hardhat](https://img.shields.io/badge/Hardhat-2.19-yellow?style=flat)
 ![Ethers.js](https://img.shields.io/badge/Ethers.js-6.x-blue?style=flat)
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-5.x-blue?style=flat)
@@ -36,11 +36,36 @@ I'm a Senior .NET Developer with 12+ years of experience, currently exploring th
 **.NET:** C# 12, .NET 8, ASP.NET Core, Entity Framework  
 **Cloud:** Azure (Cosmos DB, Service Bus, Functions)  
 **DevOps:** Docker, Azure DevOps, CI/CD  
-**Databases:** SQL Server,MySql, Oracle, Cosmos DB, MongoDB
+**Databases:** SQL Server, MySQL, Oracle, Cosmos DB, MongoDB
 
 ---
 
 ## 🎯 Featured Blockchain Projects
+
+### 🏦 [CryptoBank - DeFi Banking System](https://github.com/cjmontcablockchain/crypto-bank)
+Advanced DeFi protocol with deposits, interest generation, and collateralized lending
+
+**Highlights:**
+- ✅ **84 comprehensive tests** with 100% pass rate
+- 💰 5% annual interest system with real-time calculation
+- 🔐 Collateralized loans (150% ratio) with liquidation mechanism (120% threshold)
+- 🛡️ Advanced security: ReentrancyGuard, Pausable, CEI Pattern
+- 🚨 Emergency withdraw functionality for crisis management
+- ⚡ Gas-optimized with custom errors
+
+**Key Features:**
+- 📊 Deposit/Withdrawal system with minimum thresholds
+- 💸 Interest accrual and claiming
+- 🏦 Loan system with collateral management
+- 💱 Proportional collateral return on partial repayment
+- 🔴 Liquidation system for unhealthy positions
+- 👔 Admin controls: pause, unpause, emergency withdraw
+
+**Tech:** Solidity 0.8.28, Hardhat, OpenZeppelin, Chai, Ethers.js
+
+**Concepts:** DeFi mechanics, interest calculation, collateral ratios, liquidations, health factors
+
+---
 
 ### 💰 [Crowdfunding Platform Token (CFT)](https://github.com/cjmontcablockchain/crowdfunding-platform)
 Decentralized crowdfunding platform with integrated ERC-20 reward system
@@ -70,8 +95,9 @@ ERC-20 token for incentivizing renewable energy generation and P2P trading
 
 **Tech:** Solidity 0.8.24, OpenZeppelin ERC-20, Arbitrum
 
-**Live Contract:** [View on Arbiscan](https://arbiscan.io/address/0x6a666d89cdc3144f2754dc5feb88b5d43a29c547aca8b9c8452dd9f0f524126b)
-                   [View tx on Arbiscan](https://arbiscan.io/tx/0x6a666d89cdc3144f2754dc5feb88b5d43a29c547aca8b9c8452dd9f0f524126b)
+**Live Contract:** [View on Arbiscan](https://arbiscan.io/address/0x6a666d89cdc3144f2754dc5feb88b5d43a29c547aca8b9c8452dd9f0f524126b)  
+**Transaction:** [View tx on Arbiscan](https://arbiscan.io/tx/0x6a666d89cdc3144f2754dc5feb88b5d43a29c547aca8b9c8452dd9f0f524126b)
+
 ---
 
 ### 🗳️ [Decentralized Voting System](https://github.com/cjmontcablockchain/decentralized-voting-system)
@@ -99,6 +125,7 @@ My first smart contract - A transparent and immutable voting platform
 
 ### Smart Contract Development
 - ✅ ERC-20 token standards
+- ✅ DeFi protocols (lending, borrowing, interest mechanisms)
 - ✅ Security best practices (Reentrancy, Access Control, CEI pattern)
 - ✅ Gas optimization techniques
 - ✅ Comprehensive testing strategies
@@ -111,11 +138,13 @@ My first smart contract - A transparent and immutable voting platform
 - 🔒 Rate limiting and cooldown mechanisms
 - 🔒 Emergency pause functionality
 - 🔒 Proper access control with Ownable
+- 🔒 CEI (Checks-Effects-Interactions) pattern
 
 ### Testing & Quality
 - ✅ Unit testing with Hardhat & Chai
 - ✅ Integration testing
 - ✅ Edge case coverage
+- ✅ Security testing
 - ✅ Gas reporting
 - ✅ Security auditing mindset
 
@@ -123,7 +152,7 @@ My first smart contract - A transparent and immutable voting platform
 
 ## 📫 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-linkedin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/carlosjmontesinos)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/cjmontcablockchain)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:cjmontca.blockchain@gmail.com)
 
@@ -148,6 +177,8 @@ My first smart contract - A transparent and immutable voting platform
 - ✅ Smart contract security patterns
 - ✅ Hardhat development environment
 - ✅ Production deployment on L2 (Arbitrum)
+- ✅ DeFi mechanics (lending, borrowing, interest)
+- ✅ Collateralization and liquidation systems
 
 **Currently Learning:**
 - 🔄 Advanced DeFi protocols (Aave, Compound, Uniswap)
